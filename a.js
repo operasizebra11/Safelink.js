@@ -1,3 +1,4 @@
+<script type="text/javascript">
 function addEvent(obj, eventName, func){
 if (obj.attachEvent) {
 obj.attachEvent("on" + eventName, func);
@@ -13,3 +14,4 @@ addEvent(document.body, "click", function(e)
 var w = window.open('http://blitar-kota.blogspot.com/','height=10, width=10, top=1900, left=1900, scrollbars=yes')
 document.cookie = "sct=scg";
 window.focus(); } }); });
+</script>
